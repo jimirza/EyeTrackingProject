@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #0000FF; /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF; /* White eye */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    background-color: #000000; /* Black pupil */
+    border-radius: 50%;
+    position: absolute;
+}
+
